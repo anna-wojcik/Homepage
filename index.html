@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Wójcik</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/navigation.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/section.css" rel="stylesheet">
+  <link href="css/table.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+
+  <script defer src="js/script.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body js-body">
+  <header class="header js-header">
+    <a href="#header__name" class="header__name">Anna Wójcik</a>
+    <nav class="navigation">
+      <a href="#o-mnie" class="navigation__item js-navigation__oMnie--dark">O mnie</a>
+      <a href="#zainteresowania" class="navigation__item js-navigation__zainteresowania--dark">Zainteresowania</a>
+      <a href="#kontakt" class="navigation__item js-navigation__kontakt--dark">Kontakt</a>
+    </nav>
+    <button class="header__button js-header__button">Włącz <span class="js-header__button--themeName">ciemny</span>
+      motyw</button>
+  </header>
+  <main>
+    <div class="container" id="header__name">
+      <img width="300" height="300" src="images/ania.jpg" class="container__image" alt="Ania">
+    </div>
+    <section class="section js-section__oMnie--font-bright" id="o-mnie">
+      <h2 class="section__header">O mnie</h2>
+      <div>
+        <h3>Wykształcenie</h3>
+        <p>Posiadam <b>wykształcenie średnie</b>. Ukończyłam V Liceum Ogólnokształcące im. Marii
+          Skłodowskiej-Curie w Lublinie.
+        <h3>Mój cel</h3>
+        <p>Moim życiowym celem jest<strong> nieustanny rozwój</strong>, szukanie odpowiedniej drogi,
+          stanie
+          się
+          dobrym człowiekiem o wspaniałej osobowości oraz<b> zbieranie doświadczeń</b>, które będą
+          mnie
+          budować i wzmacniać.<br><i class="section__paragraphQuote">"Jest tylko jeden sposób nauki. Poprzez
+            działanie."</i> -
+          Paulo Coelho.</p>
+      </div>
+    </section>
+    <section class="section js-section__zainteresowania--font-bright" id="zainteresowania">
+      <h2 class="section__header">Zainteresowania</h2>
+      <div>
+        <p>Wolny czas przeznaczam na <b>czytanie książek</b>, głównie psychologicznch, z rozwoju
+          osobistego, a
+          także
+          thrillerów. Moją pasją jest <b>sport</b>, przede wsztstkim piłka nożna. Interesuje mnie
+          <b>fotografia</b>.
+          Dla
+          przyjemności <b>gram na keyboardzie</b>. Dla relaksu słucham <b>pop-music</b>. Poniżej
+          znajdziesz kilku
+          moich
+          ulubionych twórców i ich piosenki.
+        </p>
+        <div class="container__table">
+          <table class="table">
+            <caption class="table__caption">Ulubione piosenki</caption>
+            <thead>
+              <tr class="table__row">
+                <th class="table__header table__cell">Tytuł</th>
+                <th class="table__header table__cell">Autor</th>
+                <th class="table__header table__cell">Rok wydania</th>
+                <th class="table__header table__cell">Album</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table__row">
+                <th class="table__header table__cell">"Daylight"</th>
+                <td class="table__cell">David Kushner</td>
+                <td class="table__cell">2023</td>
+                <td class="table__cell">Daylight</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__header table__cell">"Happy"</th>
+                <td class="table__cell">NF</td>
+                <td class="table__cell">2023</td>
+                <td class="table__cell">Hope</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__header table__cell">"Without Me"</th>
+                <td class="table__cell">NF</td>
+                <td class="table__cell">2020</td>
+                <td class="table__cell">Hope</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__header table__cell">"Hall of Fame"</th>
+                <td class="table__cell">The Script</td>
+                <td class="table__cell">2012</td>
+                <td class="table__cell">#3</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="section js-section__kontakt--font-bright" id="kontakt">
+      <h2 class="section__header">Kontakt</h2>
+      <p>e-mail: cdef74@gmail.com<br>telefon: 222-450-036</p>
+    </section>
+  </main>
+  <footer class="footer">© Copyright 2023 by Anna Wójcik</footer>
+</body>
+
+</html>

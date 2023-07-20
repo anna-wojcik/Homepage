@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    background-color: white;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.themeDark.themeDark {
+    background-color: #1b1b1b;
+    box-shadow: 0 0 10px #FDFCFF;
+}
