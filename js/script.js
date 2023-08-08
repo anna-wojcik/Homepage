@@ -23,11 +23,7 @@
         sectionZainteresowaniaFontBright.classList.toggle("section--font-bright");
         sectionKontaktFontBright.classList.toggle("section--font-bright");
 
-        if (colorBody.classList.contains("themeDark")) {
-            themeName.innerText = "jasny";
-        } else {
-            themeName.innerText = "ciemny";
-        }
+        themeName.innerText = colorBody.classList.contains("themeDark") ? "jasny" : "ciemny";
     };
 
     const init = () => {
